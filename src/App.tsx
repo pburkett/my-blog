@@ -43,21 +43,6 @@ export const App: React.VFC = () => {
 
   return (
     <AppContainer>
-      <HeaderContainer>
-        <H1>Single Page Apps for GitHub Pages</H1>
-        <HeaderIconContainer>
-          <DarkModeButton />
-          <GitHubIconLink
-            href="https://github.com/rafgraph/spa-github-pages"
-            title="GitHub repository for SPA GitHub Pages"
-          />
-        </HeaderIconContainer>
-      </HeaderContainer>
-
-      <BreadcrumbsNav>
-        <Breadcrumbs />
-      </BreadcrumbsNav>
-
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/example" component={ExampleComponent} />
