@@ -15,7 +15,7 @@ export const App: React.VFC = () => {
 
   return (
     <AppContainer>
-      <h1>coming soon</h1>
+      <h1>Coming soon</h1>
     </AppContainer>
   );
 };
