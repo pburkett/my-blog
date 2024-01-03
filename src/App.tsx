@@ -10,28 +10,6 @@ const AppContainer = styled('div', {
   margin: '0 auto',
 });
 
-const HeaderContainer = styled('header', {
-  display: 'flex',
-  justifyContent: 'space-between',
-  marginBottom: '18px',
-});
-
-const H1 = styled('h1', {
-  fontSize: '26px',
-  marginRight: '16px',
-});
-
-const HeaderIconContainer = styled('span', {
-  width: '78px',
-  display: 'inline-flex',
-  justifyContent: 'space-between',
-  gap: '12px',
-});
-
-const BreadcrumbsNav = styled('nav', {
-  margin: '18px 0',
-});
-
 export const App: React.VFC = () => {
   globalCss();
 
