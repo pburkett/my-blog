@@ -3,12 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import { DarkModeButton } from './ui/DarkModeButton';
 import { GitHubIconLink } from './ui/GitHubIconLink';
 import { globalCss, styled } from './stitches.config';
-import { Home } from './components/Home';
-import { ExampleComponent } from './components/ExampleComponent';
-import { ExampleTwoDeepComponent } from './components/ExampleTwoDeepComponent';
-import { SitemapLinkGenerator } from './components/SitemapLinkGenerator';
-import { PageNotFound } from './components/PageNotFound';
-import { Breadcrumbs } from './components/Breadcrumbs';
 
 const AppContainer = styled('div', {
   maxWidth: '540px',
