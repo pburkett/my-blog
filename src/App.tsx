@@ -43,21 +43,7 @@ export const App: React.VFC = () => {
 
   return (
     <AppContainer>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/example" component={ExampleComponent} />
-        <Route
-          exact
-          path="/example/two-deep"
-          component={ExampleTwoDeepComponent}
-        />
-        <Route
-          exact
-          path="/sitemap-link-generator"
-          component={SitemapLinkGenerator}
-        />
-        <Route component={PageNotFound} />
-      </Switch>
+      <h1>coming soon</h1>
     </AppContainer>
   );
 };
